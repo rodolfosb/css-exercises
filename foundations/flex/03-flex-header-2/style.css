@@ -32,6 +32,11 @@ body {
   font-style: italic;
 }
 
+.links {
+  display: flex;
+  gap: 16px;
+}
+
 .left {
   display: flex;
   align-items: center;
@@ -40,6 +45,7 @@ body {
 .right{
   display: flex;
   align-items: center;
+  gap: 16px;
 }
 
 button {
